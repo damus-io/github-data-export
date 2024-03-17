@@ -1,5 +1,4 @@
-<div align="center"><img src="https://github.com/gavinr/github-csv-tools/blob/master/banner.jpg?raw=true" alt="GitHub CSV Tools banner" title="GitHub CSV Tools" />
-<h3 align="center">Import and export GitHub issues via CSV</h3>
+<h3 align="center">Import and export GitHub issues via JSON</h3>
 </div>
 
 <p align="center">
@@ -20,28 +19,8 @@
 
 ## Usage
 
-Prerequisite: [Install Node.js](https://nodejs.org/en/), then run this to install:
-
 ```bash
-npm install -g github-csv-tools
-```
-
-After install, `githubCsvTools --help` for info on how to use, or see below.
-
-Instructions for exporting or importing:
-
-### To Import Issues
-
-Currently imports title, body, labels, status (closed or open) and milestones. See the [test](/test) folder for example input formats.
-
-```bash
-githubCsvTools myFile.csv
-```
-
-### To Export Issues
-
-```bash
-githubCsvTools
+node index.js -t github_token -o organization -r repository
 ```
 
 | Option                 | Default                                                                                               | Notes                                                                                                                                                                                                         |
