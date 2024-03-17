@@ -4,11 +4,18 @@
 This repo contains tools and historic data dump of our github issue data. The
 goal is eventually to have this data stored on nostr instead.
 
-## Files
+## The data
 
-* damus.json: damus iOS issue dump
-* android.json: damus android issue dump
-* notedeck.json: damus notedeck issue dump
+All project issues and comments are exported to the `exported` subdir:
+
+* android.json
+* api.json
+* damus.json
+* nostrdb-rs.json
+* nostrdb.json
+* notecrumbs.json
+* notedeck.json
+* strfry-push-notify.json
 
 ## TODO
 
