@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+set -eou pipefail
+
+mkdir -p exported
+
+projects=(android notedeck nostrdb nostrdb-rs strfry-push-notify notecrumbs api damus)
+for project in "${projects[@]}"
+do
+
+echo "exporting '$project' issues and comments..."
+node src/index.js -t $GITHUB_TOKEN -o damus-io -r $project -c -e
+echo "done exporting 'exported/$project.json'"
+
+jq . "$project".json > exported/"$project".json
+rm "$project".json
+
+done
