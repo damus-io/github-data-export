@@ -1,5 +1,4 @@
 const fs = require("fs");
-const converter = require("json-2-csv");
 
 // Gets a single comment
 const getComment = async (octokit, values, issueNumber) => {
@@ -48,44 +47,23 @@ const getFullCommentData = async (octokit, values, data, verbose = false) => {
     });
   }
   return fullComments;
-};
+}
 
 const writeFile = async (data, fileName = false) => {
   return new Promise((resolve, reject) => {
-    converter
-      .json2csv(data, {
-        emptyFieldValue: "",
-      })
-      .then(
-        (csvString) => {
-          if (!fileName) {
-            const now = new Date();
-            fileName = `${now.getFullYear()}-${twoPadNumber(
-              now.getMonth() + 1
-            )}-${twoPadNumber(now.getDate())}-${twoPadNumber(
-              now.getHours()
-            )}-${twoPadNumber(now.getMinutes())}-${twoPadNumber(
-              now.getSeconds()
-            )}-issues.csv`;
-          }
-          fs.writeFile(fileName, csvString, "utf8", function (err) {
+	fs.writeFile(fileName, JSON.stringify(data), "utf8", function (err) {
             if (err) {
               reject(new Error("Error writing the file."));
             } else {
               resolve(fileName);
             }
           });
-        },
-        () => {
-          reject(new Error("Invalid!"));
-        }
-      );
-  });
-};
+  })
+}
 
 const twoPadNumber = (number) => {
   return String(number).padStart(2, "0");
-};
+}
 
 const defaultExportColumns = (data) => {
   return data.map((issueObject) => {
