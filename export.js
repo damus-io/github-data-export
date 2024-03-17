@@ -49,7 +49,7 @@ const getFullCommentData = async (octokit, values, data, verbose = false) => {
   return fullComments;
 }
 
-const writeFile = async (data, fileName = false) => {
+const writeFile = async (data, fileName = "export.json") => {
   return new Promise((resolve, reject) => {
 	fs.writeFile(fileName, JSON.stringify(data), "utf8", function (err) {
             if (err) {
@@ -183,7 +183,7 @@ const exportIssues = (octokit, values) => {
       }
 
       // write the data out to file.
-      writeFile(csvData, values.exportFileName).then(
+      writeFile(csvData, values.exportFileName || `${values.repo}.json`).then(
         (fileName) => {
           console.log(`Success! check ${fileName}`);
           console.log(
