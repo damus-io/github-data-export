@@ -1,6 +1,130 @@
 [
   {
     "issue": {
+      "url": "https://api.github.com/repos/damus-io/notedeck/issues/21",
+      "repository_url": "https://api.github.com/repos/damus-io/notedeck",
+      "labels_url": "https://api.github.com/repos/damus-io/notedeck/issues/21/labels{/name}",
+      "comments_url": "https://api.github.com/repos/damus-io/notedeck/issues/21/comments",
+      "events_url": "https://api.github.com/repos/damus-io/notedeck/issues/21/events",
+      "html_url": "https://github.com/damus-io/notedeck/issues/21",
+      "id": 2232138822,
+      "node_id": "I_kwDOJ4ZqP86FC7xG",
+      "number": 21,
+      "title": "Marker nip10 support",
+      "user": {
+        "login": "jb55",
+        "id": 45598,
+        "node_id": "MDQ6VXNlcjQ1NTk4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45598?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/jb55",
+        "html_url": "https://github.com/jb55",
+        "followers_url": "https://api.github.com/users/jb55/followers",
+        "following_url": "https://api.github.com/users/jb55/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jb55/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/jb55/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jb55/subscriptions",
+        "organizations_url": "https://api.github.com/users/jb55/orgs",
+        "repos_url": "https://api.github.com/users/jb55/repos",
+        "events_url": "https://api.github.com/users/jb55/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/jb55/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "assignees": [],
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2024-04-08T21:48:54Z",
+      "updated_at": "2024-04-08T21:48:54Z",
+      "closed_at": null,
+      "author_association": "CONTRIBUTOR",
+      "active_lock_reason": null,
+      "body": "We should support nip10 markers",
+      "reactions": {
+        "url": "https://api.github.com/repos/damus-io/notedeck/issues/21/reactions",
+        "total_count": 0,
+        "+1": 0,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 0,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      },
+      "timeline_url": "https://api.github.com/repos/damus-io/notedeck/issues/21/timeline",
+      "performed_via_github_app": null,
+      "state_reason": null
+    }
+  },
+  {
+    "issue": {
+      "url": "https://api.github.com/repos/damus-io/notedeck/issues/20",
+      "repository_url": "https://api.github.com/repos/damus-io/notedeck",
+      "labels_url": "https://api.github.com/repos/damus-io/notedeck/issues/20/labels{/name}",
+      "comments_url": "https://api.github.com/repos/damus-io/notedeck/issues/20/comments",
+      "events_url": "https://api.github.com/repos/damus-io/notedeck/issues/20/events",
+      "html_url": "https://github.com/damus-io/notedeck/issues/20",
+      "id": 2232137892,
+      "node_id": "I_kwDOJ4ZqP86FC7ik",
+      "number": 20,
+      "title": "deprecated positional nip-10 support",
+      "user": {
+        "login": "jb55",
+        "id": 45598,
+        "node_id": "MDQ6VXNlcjQ1NTk4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45598?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/jb55",
+        "html_url": "https://github.com/jb55",
+        "followers_url": "https://api.github.com/users/jb55/followers",
+        "following_url": "https://api.github.com/users/jb55/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jb55/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/jb55/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jb55/subscriptions",
+        "organizations_url": "https://api.github.com/users/jb55/orgs",
+        "repos_url": "https://api.github.com/users/jb55/repos",
+        "events_url": "https://api.github.com/users/jb55/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/jb55/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "assignees": [],
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2024-04-08T21:48:20Z",
+      "updated_at": "2024-04-08T21:53:26Z",
+      "closed_at": null,
+      "author_association": "CONTRIBUTOR",
+      "active_lock_reason": null,
+      "body": "We should support the deprecated form of nip-10 (positional). This is pretty easy now that #[0] mentions are no longer a thing.",
+      "reactions": {
+        "url": "https://api.github.com/repos/damus-io/notedeck/issues/20/reactions",
+        "total_count": 0,
+        "+1": 0,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 0,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      },
+      "timeline_url": "https://api.github.com/repos/damus-io/notedeck/issues/20/timeline",
+      "performed_via_github_app": null,
+      "state_reason": null
+    }
+  },
+  {
+    "issue": {
       "url": "https://api.github.com/repos/damus-io/notedeck/issues/19",
       "repository_url": "https://api.github.com/repos/damus-io/notedeck",
       "labels_url": "https://api.github.com/repos/damus-io/notedeck/issues/19/labels{/name}",
@@ -223,7 +347,17 @@
         "type": "User",
         "site_admin": false
       },
-      "labels": [],
+      "labels": [
+        {
+          "id": 6777341389,
+          "node_id": "LA_kwDOJ4ZqP88AAAABk_YFzQ",
+          "url": "https://api.github.com/repos/damus-io/notedeck/labels/web",
+          "name": "web",
+          "color": "458159",
+          "default": false,
+          "description": ""
+        }
+      ],
       "state": "open",
       "locked": false,
       "assignee": null,
@@ -231,7 +365,7 @@
       "milestone": null,
       "comments": 0,
       "created_at": "2024-04-03T16:32:53Z",
-      "updated_at": "2024-04-03T16:32:53Z",
+      "updated_at": "2024-04-08T21:52:47Z",
       "closed_at": null,
       "author_association": "CONTRIBUTOR",
       "active_lock_reason": null,
@@ -285,7 +419,17 @@
         "type": "User",
         "site_admin": false
       },
-      "labels": [],
+      "labels": [
+        {
+          "id": 6777341389,
+          "node_id": "LA_kwDOJ4ZqP88AAAABk_YFzQ",
+          "url": "https://api.github.com/repos/damus-io/notedeck/labels/web",
+          "name": "web",
+          "color": "458159",
+          "default": false,
+          "description": ""
+        }
+      ],
       "state": "open",
       "locked": false,
       "assignee": null,
@@ -293,7 +437,7 @@
       "milestone": null,
       "comments": 0,
       "created_at": "2024-04-03T16:32:42Z",
-      "updated_at": "2024-04-03T16:32:42Z",
+      "updated_at": "2024-04-08T21:52:59Z",
       "closed_at": null,
       "author_association": "CONTRIBUTOR",
       "active_lock_reason": null,
@@ -1517,11 +1661,11 @@
       "milestone": null,
       "comments": 0,
       "created_at": "2024-03-13T09:05:00Z",
-      "updated_at": "2024-03-13T09:05:32Z",
+      "updated_at": "2024-04-08T21:53:48Z",
       "closed_at": null,
       "author_association": "CONTRIBUTOR",
       "active_lock_reason": null,
-      "body": "This is a tracking issue for replying to posts. The design may be slightly different on mobile and desktop. I really want to clean up the amount of clutter in timelines. I really like Niel Liesmon's designs:\r\n\r\nhttps://damus.io/note128wzh4ucn3g3prwrpqlaz8e4xhg9pmq7e6ntphw0df9zumdtapts3u7cm5\r\n\r\nhttps://damus.io/nevent1qqsq6afc8a8jag6cz0yzf23f86msdy0vm5eysuzd6pgt4wf4swvsu8g63yzp9\r\n\r\nWhere you long-press on mobile to interact, and right-click on desktop. Maybe drag to reply on mobile for quick replies?\r\n\r\nOne issue is this is jack has mentioned multiple times that Damus feels 'dead' because the lack of post stats. Maybe neil's designs with interaction bubbles could help here? But this would also increase overall busyness and make the timeline less compact.\r\n\r\n- [ ] https://github.com/damus-io/notedeck/issues/1\r\n- [ ] https://github.com/damus-io/notedeck/issues/2\r\n- [ ] https://github.com/damus-io/notedeck/issues/3\r\n",
+      "body": "This is a tracking issue for replying to posts. The design may be slightly different on mobile and desktop. I really want to clean up the amount of clutter in timelines. I really like Niel Liesmon's designs:\r\n\r\nhttps://damus.io/note128wzh4ucn3g3prwrpqlaz8e4xhg9pmq7e6ntphw0df9zumdtapts3u7cm5\r\n\r\nhttps://damus.io/nevent1qqsq6afc8a8jag6cz0yzf23f86msdy0vm5eysuzd6pgt4wf4swvsu8g63yzp9\r\n\r\nWhere you long-press on mobile to interact, and right-click on desktop. Maybe drag to reply on mobile for quick replies?\r\n\r\nOne issue is this is jack has mentioned multiple times that Damus feels 'dead' because the lack of post stats. Maybe neil's designs with interaction bubbles could help here? But this would also increase overall busyness and make the timeline less compact.\r\n\r\n- [ ] https://github.com/damus-io/notedeck/issues/1\r\n- [ ] https://github.com/damus-io/notedeck/issues/2\r\n- [ ] https://github.com/damus-io/notedeck/issues/3\r\n- [ ] https://github.com/damus-io/nostrdb-rs/issues/2\r\n- [ ] https://github.com/damus-io/notedeck/issues/11\r\n",
       "reactions": {
         "url": "https://api.github.com/repos/damus-io/notedeck/issues/4/reactions",
         "total_count": 0,
@@ -1571,7 +1715,26 @@
         "type": "User",
         "site_admin": false
       },
-      "labels": [],
+      "labels": [
+        {
+          "id": 6722896789,
+          "node_id": "LA_kwDOJ4ZqP88AAAABkLdDlQ",
+          "url": "https://api.github.com/repos/damus-io/notedeck/labels/ui",
+          "name": "ui",
+          "color": "8A5E53",
+          "default": false,
+          "description": "UI-related issues"
+        },
+        {
+          "id": 6798917406,
+          "node_id": "LA_kwDOJ4ZqP88AAAABlT8_Hg",
+          "url": "https://api.github.com/repos/damus-io/notedeck/labels/posting",
+          "name": "posting",
+          "color": "5319e7",
+          "default": false,
+          "description": "Posting-related features"
+        }
+      ],
       "state": "open",
       "locked": false,
       "assignee": null,
@@ -1579,7 +1742,7 @@
       "milestone": null,
       "comments": 5,
       "created_at": "2024-03-13T09:03:06Z",
-      "updated_at": "2024-03-13T15:56:04Z",
+      "updated_at": "2024-04-08T21:52:37Z",
       "closed_at": null,
       "author_association": "CONTRIBUTOR",
       "active_lock_reason": null,
@@ -1633,7 +1796,26 @@
         "type": "User",
         "site_admin": false
       },
-      "labels": [],
+      "labels": [
+        {
+          "id": 6722896789,
+          "node_id": "LA_kwDOJ4ZqP88AAAABkLdDlQ",
+          "url": "https://api.github.com/repos/damus-io/notedeck/labels/ui",
+          "name": "ui",
+          "color": "8A5E53",
+          "default": false,
+          "description": "UI-related issues"
+        },
+        {
+          "id": 6798917406,
+          "node_id": "LA_kwDOJ4ZqP88AAAABlT8_Hg",
+          "url": "https://api.github.com/repos/damus-io/notedeck/labels/posting",
+          "name": "posting",
+          "color": "5319e7",
+          "default": false,
+          "description": "Posting-related features"
+        }
+      ],
       "state": "open",
       "locked": false,
       "assignee": null,
@@ -1641,7 +1823,7 @@
       "milestone": null,
       "comments": 5,
       "created_at": "2024-03-13T09:03:06Z",
-      "updated_at": "2024-03-13T15:56:04Z",
+      "updated_at": "2024-04-08T21:52:37Z",
       "closed_at": null,
       "author_association": "CONTRIBUTOR",
       "active_lock_reason": null,
@@ -1701,7 +1883,26 @@
         "type": "User",
         "site_admin": false
       },
-      "labels": [],
+      "labels": [
+        {
+          "id": 6722896789,
+          "node_id": "LA_kwDOJ4ZqP88AAAABkLdDlQ",
+          "url": "https://api.github.com/repos/damus-io/notedeck/labels/ui",
+          "name": "ui",
+          "color": "8A5E53",
+          "default": false,
+          "description": "UI-related issues"
+        },
+        {
+          "id": 6798917406,
+          "node_id": "LA_kwDOJ4ZqP88AAAABlT8_Hg",
+          "url": "https://api.github.com/repos/damus-io/notedeck/labels/posting",
+          "name": "posting",
+          "color": "5319e7",
+          "default": false,
+          "description": "Posting-related features"
+        }
+      ],
       "state": "open",
       "locked": false,
       "assignee": null,
@@ -1709,7 +1910,7 @@
       "milestone": null,
       "comments": 5,
       "created_at": "2024-03-13T09:03:06Z",
-      "updated_at": "2024-03-13T15:56:04Z",
+      "updated_at": "2024-04-08T21:52:37Z",
       "closed_at": null,
       "author_association": "CONTRIBUTOR",
       "active_lock_reason": null,
@@ -1769,7 +1970,26 @@
         "type": "User",
         "site_admin": false
       },
-      "labels": [],
+      "labels": [
+        {
+          "id": 6722896789,
+          "node_id": "LA_kwDOJ4ZqP88AAAABkLdDlQ",
+          "url": "https://api.github.com/repos/damus-io/notedeck/labels/ui",
+          "name": "ui",
+          "color": "8A5E53",
+          "default": false,
+          "description": "UI-related issues"
+        },
+        {
+          "id": 6798917406,
+          "node_id": "LA_kwDOJ4ZqP88AAAABlT8_Hg",
+          "url": "https://api.github.com/repos/damus-io/notedeck/labels/posting",
+          "name": "posting",
+          "color": "5319e7",
+          "default": false,
+          "description": "Posting-related features"
+        }
+      ],
       "state": "open",
       "locked": false,
       "assignee": null,
@@ -1777,7 +1997,7 @@
       "milestone": null,
       "comments": 5,
       "created_at": "2024-03-13T09:03:06Z",
-      "updated_at": "2024-03-13T15:56:04Z",
+      "updated_at": "2024-04-08T21:52:37Z",
       "closed_at": null,
       "author_association": "CONTRIBUTOR",
       "active_lock_reason": null,
@@ -1837,7 +2057,26 @@
         "type": "User",
         "site_admin": false
       },
-      "labels": [],
+      "labels": [
+        {
+          "id": 6722896789,
+          "node_id": "LA_kwDOJ4ZqP88AAAABkLdDlQ",
+          "url": "https://api.github.com/repos/damus-io/notedeck/labels/ui",
+          "name": "ui",
+          "color": "8A5E53",
+          "default": false,
+          "description": "UI-related issues"
+        },
+        {
+          "id": 6798917406,
+          "node_id": "LA_kwDOJ4ZqP88AAAABlT8_Hg",
+          "url": "https://api.github.com/repos/damus-io/notedeck/labels/posting",
+          "name": "posting",
+          "color": "5319e7",
+          "default": false,
+          "description": "Posting-related features"
+        }
+      ],
       "state": "open",
       "locked": false,
       "assignee": null,
@@ -1845,7 +2084,7 @@
       "milestone": null,
       "comments": 5,
       "created_at": "2024-03-13T09:03:06Z",
-      "updated_at": "2024-03-13T15:56:04Z",
+      "updated_at": "2024-04-08T21:52:37Z",
       "closed_at": null,
       "author_association": "CONTRIBUTOR",
       "active_lock_reason": null,
@@ -1905,7 +2144,26 @@
         "type": "User",
         "site_admin": false
       },
-      "labels": [],
+      "labels": [
+        {
+          "id": 6722896789,
+          "node_id": "LA_kwDOJ4ZqP88AAAABkLdDlQ",
+          "url": "https://api.github.com/repos/damus-io/notedeck/labels/ui",
+          "name": "ui",
+          "color": "8A5E53",
+          "default": false,
+          "description": "UI-related issues"
+        },
+        {
+          "id": 6798917406,
+          "node_id": "LA_kwDOJ4ZqP88AAAABlT8_Hg",
+          "url": "https://api.github.com/repos/damus-io/notedeck/labels/posting",
+          "name": "posting",
+          "color": "5319e7",
+          "default": false,
+          "description": "Posting-related features"
+        }
+      ],
       "state": "open",
       "locked": false,
       "assignee": null,
@@ -1913,7 +2171,7 @@
       "milestone": null,
       "comments": 5,
       "created_at": "2024-03-13T09:03:06Z",
-      "updated_at": "2024-03-13T15:56:04Z",
+      "updated_at": "2024-04-08T21:52:37Z",
       "closed_at": null,
       "author_association": "CONTRIBUTOR",
       "active_lock_reason": null,
@@ -2082,7 +2340,7 @@
       "id": 2183383111,
       "node_id": "I_kwDOJ4ZqP86CI8hH",
       "number": 1,
-      "title": "nip-10 replies",
+      "title": "nip-10 thread replies",
       "user": {
         "login": "jb55",
         "id": 45598,
@@ -2111,11 +2369,11 @@
       "milestone": null,
       "comments": 0,
       "created_at": "2024-03-13T08:21:42Z",
-      "updated_at": "2024-03-13T08:21:42Z",
+      "updated_at": "2024-04-08T21:50:58Z",
       "closed_at": null,
       "author_association": "CONTRIBUTOR",
       "active_lock_reason": null,
-      "body": "Need some code to construct replies when replying to a thread. We can use the non-deprecated form finally since we're starting new.",
+      "body": "Need some code to construct replies when replying to a thread.\r\n\r\n- [x] https://github.com/damus-io/nostrdb-rs/issues/2\r\n- [ ] https://github.com/damus-io/notedeck/issues/20\r\n- [ ] https://github.com/damus-io/notedeck/issues/21",
       "reactions": {
         "url": "https://api.github.com/repos/damus-io/notedeck/issues/1/reactions",
         "total_count": 0,
